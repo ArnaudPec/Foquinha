@@ -90,7 +90,7 @@ def returnID() :
 		return 0
 
 def returnHardwareVersion() :
-	my_print('Request firmware version...')
+	my_print('Request hardware version...')
 	data = transfert('ATI11', 'OK', 'ERROR')
 	if data == '' :
 		sys.stderr.write('ERROR: No reply!\n')
