@@ -138,7 +138,7 @@ ret = 2
 quiet = 0
 
 # Parsing args
-device = '/dev/ttyAMA0'
+device = '/dev/ttyUSB0'
 message = ''
 commands = []
 try:
